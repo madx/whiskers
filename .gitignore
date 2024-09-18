@@ -1,0 +1,4 @@
+node_modules
+graphics
+db/pb_data
+db/pocketbase

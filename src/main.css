@@ -1,0 +1,20 @@
+@import "open-color";
+
+:root {
+  --color-background: var(--oc-gray-0);
+  --color-foreground: var(--oc-gray-7);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--oc-gray-9);
+    --color-foreground: var(--oc-gray-0);
+  }
+}
+
+#app {
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: interstate, sans-serif;
+}
