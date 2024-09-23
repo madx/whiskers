@@ -3,14 +3,20 @@
 :root {
   --color-background: var(--oc-gray-0);
   --color-foreground: var(--oc-gray-7);
+
+  --space-xs: 4px;
+  --space-s: 8px;
+  --space-m: 12px;
+  --space-l: 20px;
+  --space-xl: 32px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--oc-gray-9);
-    --color-foreground: var(--oc-gray-0);
-  }
-}
+/* @media (prefers-color-scheme: dark) { */
+/*   :root { */
+/*     --color-background: var(--oc-gray-9); */
+/*     --color-foreground: var(--oc-gray-0); */
+/*   } */
+/* } */
 
 #app {
   min-height: 100vh;

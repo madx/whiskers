@@ -37,7 +37,9 @@ function useLocale() {
 
   const _ = useCallback(
     (key: LocaleKey, ...args: string[]) =>
-      typeof locale[key] === "function" ? locale[key](...args) : locale[key],
+      (typeof locale[key] === "function"
+        ? locale[key](...args)
+        : locale[key]) || key,
     [locale],
   );
 

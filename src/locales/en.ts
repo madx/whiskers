@@ -1,4 +1,6 @@
 const en = {
+  "menu.miceList": "Mice",
+  "menu.settings": "Settings",
   "action.deleteMouse": (name: string) => `Delete ${name}`,
   "mouse.profile": "Profile",
   "mouse.inventory": "Inventory",

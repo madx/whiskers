@@ -2,6 +2,8 @@ import { Locale } from ".";
 
 const fr: Locale = {
   "action.deleteMouse": (name: string) => `Supprimer ${name}`,
+  "menu.miceList": "Souris",
+  "menu.settings": "Paramètres",
   "mouse.profile": "Profil",
   "mouse.inventory": "Inventaire",
   "mouse.name": "Nom",
